@@ -85,80 +85,80 @@ main{
 }
 
 .chocolate{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/hamburguesas.avif);
+    background-image: linear-gradient(#0004, #0008), url(hamburguesas.avif);
 }
 .nueces{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/milanesas.avif);
+    background-image: linear-gradient(#0004, #0008), url(milanesas.avif);
 }
 .baggle{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/pollo.avif);
+    background-image: linear-gradient(#0004, #0008), url(pollo.avif);
 }
 .donafrutilla{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/salmon.avif);
+    background-image: linear-gradient(#0004, #0008), url(salmon.avif);
 }
 .carne{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/carne.avif);
+    background-image: linear-gradient(#0004, #0008), url(carne.avif);
 }
 .fideos{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/fideos.avif);
+    background-image: linear-gradient(#0004, #0008), url(fideos.avif);
 }
 .cerdo{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/cerdo.avif);
+    background-image: linear-gradient(#0004, #0008), url(cerdo.avif);
 }
 .sandwich{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/sandwich.avif);
+    background-image: linear-gradient(#0004, #0008), url(sandwich.avif);
 }
 .vegana{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/ensalada.avif);
+    background-image: linear-gradient(#0004, #0008), url(ensalada.avif);
 }
 /* */
 .gaseosas{
-        background-image: linear-gradient(#0004, #0008), url(../imagenes/gaseosas.avif);
+        background-image: linear-gradient(#0004, #0008), url(gaseosas.avif);
 }
 .jugos{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/jugos.avif);
+    background-image: linear-gradient(#0004, #0008), url(jugos.avif);
 }
 .aguas{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/agua.avif);
+    background-image: linear-gradient(#0004, #0008), url(agua.avif);
 }
 .bebidasalcoholicas{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/bebidaalcohol.avif);
+    background-image: linear-gradient(#0004, #0008), url(bebidaalcohol.avif);
 }
 .enlata{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/bebidaenlata.avif);
+    background-image: linear-gradient(#0004, #0008), url(bebidaenlata.avif);
 }
 .licuados{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/licuados.avif);
+    background-image: linear-gradient(#0004, #0008), url(licuados.avif);
 }
 .tortas{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/pasteles.avif);
+    background-image: linear-gradient(#0004, #0008), url(pasteles.avif);
 }
 .helado{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/helado.avif);
+    background-image: linear-gradient(#0004, #0008), url(helado.avif);
 }
 .cupcakes{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/cupcakes.avif);
+    background-image: linear-gradient(#0004, #0008), url(cupcakes.avif);
 }
 .postreshelado{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/tiramisu.avif);
+    background-image: linear-gradient(#0004, #0008), url(tiramisu.avif);
 }
 .galletas{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/galletas.avif);
+    background-image: linear-gradient(#0004, #0008), url(galletas.avif);
 }
 .gelatina{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/gelatina.avif);
+    background-image: linear-gradient(#0004, #0008), url(gelatina.avif);
 }
 .frutal{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/postrefrutal.avif);
+    background-image: linear-gradient(#0004, #0008), url(postrefrutal.avif);
 }
 .alfajores{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/alfajores.avif);
+    background-image: linear-gradient(#0004, #0008), url(alfajores.avif);
 }
 .flan{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/flan.avif);
+    background-image: linear-gradient(#0004, #0008), url(flan.avif);
 }
 .budindepan{
-    background-image: linear-gradient(#0004, #0008), url(../imagenes/budin.avif);
+    background-image: linear-gradient(#0004, #0008), url(budin.avif);
 }
 .main__container__title{
     font-weight: 900;

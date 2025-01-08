@@ -245,14 +245,6 @@ footer{
         -webkit-overflow-scrolling: touch; 
         overflow-scrolling: touch;
     }
-    .line__wrapper::-webkit-scrollbar {
-        background-color: transparent;
-        height: 5px;
-    }
-    .line__wrapper::-webkit-scrollbar-thumb {
-        background-color: #0005;
-        border-radius: 5px; 
-    }
     .line__wrapper__title{
         font-size: calc(1rem + 10px);
     }

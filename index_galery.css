@@ -53,12 +53,23 @@ main{
     margin: 20px;
 }
 .line__wrapper{
-    display: grid;
-    grid-auto-flow: column;
-    gap: 15px;
-    padding: 10px;
-    margin: 10px auto;
-    overflow-x: scroll;
+    display: flex; /* Asegura que los elementos hijos estén en una fila */
+    flex-direction: row; /* Establece que los elementos estén en fila (horizontal) */
+    flex-wrap: nowrap; /* Evita que se envuelvan en otra línea */
+    overflow-x: auto; /* Habilita el scroll horizontal */
+    overflow-y: hidden; /* Evita el scroll vertical */
+    white-space: nowrap; /* Asegura que el contenido no se quiebre */
+}
+.main__container{
+    width: 20vw; /* Define el ancho de cada contenedor hijo */
+    flex: 0 0 auto; /* Evita que se redimensione dentro del contenedor padre */
+    display: flex; /* Opcional: Si necesitas más flexibilidad dentro del hijo */
+}
+.line__wrapper .simplebar-content {
+    display: flex !important; /* Asegura la disposición en fila */
+    flex-direction: row !important; /* Mantiene la dirección horizontal */
+    flex-wrap: nowrap !important; /* Evita que los hijos se envuelvan */
+    white-space: nowrap !important; /* Garantiza que no haya quiebres */
 }
 .line__wrapper::-webkit-scrollbar{
     background-color: transparent;
@@ -179,15 +190,6 @@ hr{
     width: 200px;
     margin: 50px auto;
     border: 2px solid #0003;
-    border-radius: 8px;
-}
-.main__container{
-    background-color: #f0f1e0;
-    display: flex;
-    flex-direction: column;
-    width: clamp(10vw, 15vw, 20vw);
-    height: clamp(15vh, 40vh, 45vh);
-    box-shadow: 0 0 10px #0003;
     border-radius: 8px;
 }
 span{

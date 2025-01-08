@@ -52,24 +52,16 @@ main{
 .main__wrapper{
     margin: 20px;
 }
-.line__wrapper{
-    display: flex; /* Asegura que los elementos hijos estén en una fila */
-    flex-direction: row; /* Establece que los elementos estén en fila (horizontal) */
-    flex-wrap: nowrap; /* Evita que se envuelvan en otra línea */
-    overflow-x: auto; /* Habilita el scroll horizontal */
-    overflow-y: hidden; /* Evita el scroll vertical */
-    white-space: nowrap; /* Asegura que el contenido no se quiebre */
+.simplebar-content {
+    display: flex !important;
+    flex-direction: row !important; 
+    width: auto;
+    gap: 40px;
+    padding: 30px;
 }
 .main__container{
-    width: 20vw; /* Define el ancho de cada contenedor hijo */
-    flex: 0 0 auto; /* Evita que se redimensione dentro del contenedor padre */
-    display: flex; /* Opcional: Si necesitas más flexibilidad dentro del hijo */
-}
-.line__wrapper .simplebar-content {
-    display: flex !important; /* Asegura la disposición en fila */
-    flex-direction: row !important; /* Mantiene la dirección horizontal */
-    flex-wrap: nowrap !important; /* Evita que los hijos se envuelvan */
-    white-space: nowrap !important; /* Garantiza que no haya quiebres */
+    background-color: #f5f1e1;
+    flex: 2;
 }
 .line__wrapper::-webkit-scrollbar{
     background-color: transparent;
@@ -238,17 +230,6 @@ footer{
     }
     .main__section{
         z-index: -1;
-    }
-    .line__wrapper {
-        overflow-x: auto; 
-        display: flex; 
-        flex-direction: row; 
-        flex-wrap: nowrap; 
-        white-space: nowrap; 
-    }
-    .main__container {
-        width: 60vw; 
-        flex: 0 0 auto; 
     }
     .line__wrapper__title{
         font-size: calc(1rem + 10px);

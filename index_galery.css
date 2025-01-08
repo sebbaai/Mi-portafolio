@@ -52,6 +52,10 @@ main{
 .main__wrapper{
     margin: 20px;
 }
+.main__container{
+    width: 50vw;
+    background-color: #f5f1e1;
+}
 .line__wrapper::-webkit-scrollbar{
     background-color: transparent;
 }

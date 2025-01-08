@@ -62,8 +62,6 @@ main{
 }
 .main__container{
     background-color: #f0f1e0;
-    display: flex;
-    flex-direction: column;
     width: clamp(10vw, 15vw, 20vw);
     height: clamp(15vh, 40vh, 45vh);
     box-shadow: 0 0 10px #0003;
@@ -92,7 +90,6 @@ main{
     background-size: cover;
     position: relative;
 }
-
 .chocolate{
     background-image: linear-gradient(#0004, #0008), url(hamburguesas.avif);
 }

@@ -220,7 +220,7 @@ footer{
     .main__section{
         z-index: -1;
     }
-    line__wrapper{
+    .line__wrapper{
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch; 

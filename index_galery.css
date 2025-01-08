@@ -52,6 +52,14 @@ main{
 .main__wrapper{
     margin: 20px;
 }
+.line__wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+    padding: 10px;
+    margin: 10px auto;
+    overflow-x: scroll;
+}
 .main__container{
     background-color: #f0f1e0;
     display: flex;

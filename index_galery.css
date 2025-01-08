@@ -231,9 +231,6 @@ footer{
     .header__nav__list, .header__checkbox, .header__label{
         display: none;
     }
-    .main__section{
-        z-index: -1;
-    }
     .main__container{
         background-color: #f5f1e1;
         width: 30vw;

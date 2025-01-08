@@ -52,17 +52,6 @@ main{
 .main__wrapper{
     margin: 20px;
 }
-.simplebar-content {
-    display: flex !important;
-    flex-direction: row !important; 
-    width: auto;
-    gap: 40px;
-    padding: 30px;
-}
-.main__container{
-    background-color: #f5f1e1;
-    flex: 2;
-}
 .line__wrapper::-webkit-scrollbar{
     background-color: transparent;
 }
@@ -230,6 +219,26 @@ footer{
     }
     .main__section{
         z-index: -1;
+    }
+    line__wrapper{
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch; 
+        overflow-scrolling: touch;
+    }
+    .line__wrapper::-webkit-scrollbar {
+        background-color: #fff;
+        height: 8px;
+    }
+    .line__wrapper::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 10px; 
+    }
+    .line__wrapper::-webkit-scrollbar-thumb:hover {
+        background-color: #555; 
+    }
+    .line__wrapper::-webkit-scrollbar{
+        background-color: #fff;
     }
     .line__wrapper__title{
         font-size: calc(1rem + 10px);

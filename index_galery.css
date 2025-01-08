@@ -239,8 +239,16 @@ footer{
     .main__section{
         z-index: -1;
     }
-    .main__container{
-        width: 50vw;
+    .line__wrapper {
+        overflow-x: auto; 
+        display: flex; 
+        flex-direction: row; 
+        flex-wrap: nowrap; 
+        white-space: nowrap; 
+    }
+    .main__container {
+        width: 60vw; 
+        flex: 0 0 auto; 
     }
     .line__wrapper__title{
         font-size: calc(1rem + 10px);

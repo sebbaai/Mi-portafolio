@@ -8,7 +8,9 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
+}
+main, footer{
+    flex: 1;
 }
 .header{
     background-color: #f5f5dc;
@@ -58,7 +60,6 @@ body{
     background-size: cover;
     background-attachment: fixed;
     backdrop-filter: blur(15px);
-    flex: 2;
     display: flex;
     flex-direction: column;
 }

@@ -313,11 +313,13 @@ svg{
     align-items: center;
     gap: 30px;
 }
-.link__email{
+.contact__link{
+    font-size: calc(1rem + 10px);
     text-decoration: none;
     color: #fff;
+    transition: all .4s;
 }
-.link__email:hover{
+.contact__link:hover{
     text-decoration: underline;
 }
 .contact__text{
@@ -535,27 +537,27 @@ svg{
         width: 200px;
     }
     .contact__section{
-        height: 70vh;
-        display: flex;
-        flex-wrap: wrap;
+        height: fit-content;
+        flex: 1;
     }
-    .contact__text, .link__email{
-        text-wrap: balance;
-        width: min-content;
-        color: #fff;
-        font-size: clamp(3vw, 4vw, 5vw);
-        }
     .contact__title{
-        font-size: clamp(4vw, 6vw, 7vw);
+        font-size: calc(2.3rem + 2px);
     }
     .contact__data__container{
-       display: flex;
-       align-items: center;
+        margin: auto;
+        margin-left: -20px;
     }
     .icon__container{
-        width: 200px;
         display: flex;
         flex-direction: column;
+    }
+    .contact__link{
+        font-size: calc(1rem + 4px);
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer{
+        font-size: calc(.7rem + 2px);
     }
     
 }

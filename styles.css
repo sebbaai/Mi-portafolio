@@ -445,8 +445,7 @@ svg{
         display: flex;
     }
     svg{
-        position: absolute;
-        top: 3.5%;
+        display: none;
     }
     /* user section */
     .user__section{

@@ -8,6 +8,8 @@ html{
     scroll-behavior: smooth;
 }
 body{
+      display: flex;
+    flex-direction: column;
     background-color: #f5efef;
     font-family: Hanuman;
     overflow-x: hidden;
@@ -17,6 +19,7 @@ body{
 .header{
     background-color: transparent;
     padding: clamp(10px, 10px, 20px);
+    flex: 1;
     display: flex;
     z-index: 10;
     height: clamp(10vh, 10vh, 20vh); 
@@ -103,6 +106,7 @@ body{
 /* -------------------------------------------------------- User section ------------------------------------------------------------------------------ */
 .user__section{
     height: fit-content;
+     flex: 1;
 }
 .user__section-wrapper{
     display: flex;
@@ -226,11 +230,10 @@ svg{
     padding: 30px;
 }
 .Project__container{
-    margin: auto;
+     margin: auto;
     width: clamp(30vw, 90vw, 90vw);
     height: clamp(50vh, 50vh, 75vh);
     display: flex;
-    background-color: #fff;
     text-wrap: balance;
     border-radius: 8px;
     transition: all .4s;
@@ -293,7 +296,7 @@ hr{
 }
 /* ----------------------------------------------------- contact section ----------------------------------------------------------------------*/
 .contact__section{
-    height: 55vh;
+    height: fit-content;
     background-color: #fff;
 }
 .contact__div{
@@ -377,6 +380,7 @@ summary{
 /* --------------------------------------------- footer section -------------------------------------------------------- */
 .footer{
     display: flex;
+    flex: 1;
     flex-direction: column;
     padding: 20px;
     text-align: center;

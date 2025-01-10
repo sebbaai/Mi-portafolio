@@ -6,10 +6,10 @@
     <meta name="title" content="Portafolio web">
     <meta name="description" content="Toda mi informacion sobre mi recorrido laboral">
     <title>Portafolio web</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../Css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="icon" href="favicon-16x16.png" type="image/x-icon">
+    <link rel="icon" href="../../../imagenes/favicon-16x16.png" type="image/x-icon">
 </head>
 <body>
     <header class="header">
@@ -44,12 +44,14 @@
             </ul>
         </nav>
     </header>
-    <svg class="dou" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,224L48,229.3C96,235,192,245,288,240C384,235,480,213,576,208C672,203,768,213,864,218.7C960,224,1056,224,1152,218.7C1248,213,1344,203,1392,197.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0099ff" fill-opacity="1" d="M0,96L60,85.3C120,75,240,53,360,85.3C480,117,600,203,720,234.7C840,267,960,245,1080,224C1200,203,1320,181,1380,170.7L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+    </svg>
     <section id="User-section" class="user__section">
         <div class="animate__animated animate__fadeInDownBig user__section-wrapper">
             <div class="user__data-wrapper">
                 <div class="user__img__container">
-                    <img src="userimage.jpeg" class="user__img" alt="Imagen del protagonista del portafolio" loading="lazy">
+                    <img src="../imagenes/userimage.jpeg" class="user__img" alt="Imagen del protagonista del portafolio" loading="lazy">
                 </div>
                 <h2 class="user__data__title">Sebastian Di Pietro</h2>
             <h3 class="user__data__subtitle">Desarrollador freelancer</h3>
@@ -60,46 +62,50 @@
     <section class="secondary__data__section">
         <div class="animate__animated animate__fadeInDownBig secondary__data">
             <h3 class="user__data__text__subtitle">Tecnologias que manejo actualmente:</h3>
-            <img src="html2.png" class="img__user__subtitle">
-            <img src="css.png" class="img__user__subtitle">
+            <img src="../imagenes/html2.png" class="img__user__subtitle">
+            <img src="../imagenes/css.png" class="img__user__subtitle">
         </div>
     </section>
+    <svg class="dou" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,224L48,229.3C96,235,192,245,288,240C384,235,480,213,576,208C672,203,768,213,864,218.7C960,224,1056,224,1152,218.7C1248,213,1344,203,1392,197.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     <section id="Project-section" class="project__section">
         <h2 class="Project__title">Proyectos</h2>
         <div class="Project-wrapper">
             <div class="animate__animated animate__fadeInLeft Project__container">
-                <img src="webcompany.avif" class="wrapper__img">
-                <a href="index_blog.html" class="project__linkitem" aria-label="Area de proyectos blog o noticias" title="Proyectos noticias/blogs" rel="noopener noreferrer"><h2 class="Project__container__title">Un lugar para su servicio</h2></a>
+                <img src="../imagenes/webcompany.avif" class="wrapper__img">
+                <a href="../Html/Html Blog/noticia/Index_blog.html" class="project__linkitem" aria-label="Area de proyectos blog o noticias" title="Proyectos noticias/blogs" rel="noopener noreferrer"><h2 class="Project__container__title">Un lugar para su servicio</h2></a>
                 <p class="Project__container__data">Descubra un prototipo de página modularizada con un diseño moderno, optimizado para una experiencia de usuario fluida.</p>
             </div>
             <div class="animate__animated animate__fadeInLeft Project__container">
-                <img src="compra.avif" class="wrapper__img">
-                <a href="index_landingpage.html" class="project__linkitem" aria-label="Area de proyectos blog o noticias" title="Proyectos noticias/blogs" rel="noopener noreferrer"><h2 class="Project__container__title">Luzca su producto</h2></a>
+                <img src="../imagenes/compra.avif" class="wrapper__img">
+                <a href="../Html/HTML Landing_page/Index_landingpage.html" class="project__linkitem" aria-label="Area de proyectos blog o noticias" title="Proyectos noticias/blogs" rel="noopener noreferrer"><h2 class="Project__container__title">Luzca su producto</h2></a>
                 <p class="Project__container__data">Una sección diseñada para destacar su producto como el elemento principal, asegurando su máxima visibilidad y atracción para los usuarios.</p>
             </div>
             <div class="animate__animated animate__fadeInLeft Project__container">
-                <img src="tiendaonline.avif" class="wrapper__img">
-                <a href="index_galery.html" class="project__linkitem" aria-label="Area de proyectos blog o noticias" title="Proyectos noticias/blogs" rel="noopener noreferrer"><h2 class="Project__container__title">Tienda online</h2></a>
+                <img src="../imagenes/tiendaonline.avif" class="wrapper__img">
+                <a href="../Html/HTML Galery section/Index_galery.html" class="project__linkitem" aria-label="Area de proyectos blog o noticias" title="Proyectos noticias/blogs" rel="noopener noreferrer"><h2 class="Project__container__title">Tienda online</h2></a>
                 <p class="Project__container__data">En esta tienda online, mostrara cada producto de forma clara, con imágenes y descripciones detalladas, para garantizar una compra segura.</p>
             </div>
         </div>
     </section>
     <section class="contact__section" id="contact__section">
-        <div class="contact__div">
+        <hr>
+        <hr>
         <h2 class="contact__title">Contacto</h2>
+        <div class="contact__div">
         <div class="contact__data__container">
             <div class="icon__container">
-            <img src="gmail.png" class="icon gmail">
+            <img src="../imagenes/gmail.png" class="icon gmail">
             <p class="contact__text"><a href="mailto:sebamoisesdp@gmail.com" class="contact__link">sebamoisesdp@gmail.com</a></p>
             </div>
             <div class="icon__container">
-                <img src="smartphone.png" class="icon number">
-                <p class="contact__text"><a href="https://wa.me/543874401621" class="contact__link">387 440 1621</a></p>
+                <img src="../imagenes/smartphone.png" class="icon number">
+                <p class="contact__text"><a href="#" class="contact__link">387 440 1621</a></p>
                 </div>
-             <div class="icon__container">
-                    <img src="github-markdou.png" class="icon github">
+                <div class="icon__container">
+                    <img src="../imagenes/github-markdou.png" class="icon github">
                     <p class="contact__text"><a href="https://github.com/sebbaai" class="contact__link">sebbaai</a></p>
                     </div>
+        </div>
         </div>
     </section>
     <section class="qa__section" id="qa__section">

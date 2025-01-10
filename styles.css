@@ -216,6 +216,9 @@ svg{
     margin-top: -50px;
 }
 /* ------------------------------------------------------------ Project section -------------------------------------------------------------------------- */
+.dou{
+    position: relative;
+}
 .Project-wrapper{
     display: flex;
     flex-direction: column;
@@ -246,6 +249,7 @@ svg{
 }
 .project__section{
     height: fit-content;
+    background-color: #fff;
     margin: 20px;
 }
 .Project__container:hover{
@@ -282,6 +286,11 @@ svg{
     animation: title-movement 1s linear alternate-reverse infinite;
     overflow: hidden;
 }
+hr{
+    width: 10%;
+    margin: auto;
+    border: 1px solid #0002;
+}
 /* ----------------------------------------------------- contact section ----------------------------------------------------------------------*/
 .contact__section{
     height: 55vh;
@@ -292,7 +301,7 @@ svg{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    margin: 20px auto;
+    margin: auto;
 }
 .contact__title{
     font-size: clamp(2vw, 2.5vw, 3vw);
@@ -340,6 +349,30 @@ svg{
 }
 .icon:hover, .contact__text:hover{
     transform: scale(1.03);
+}
+/* -----------------------------------Q&A SECTION ------------------- */
+.qa__section{
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+.qa__title{
+    text-align: center;
+    text-transform: uppercase;
+    color: #7bf;
+    font-size: calc(2rem + 1px);
+}
+details{
+    padding: 10px;
+}
+summary{
+    padding: 15px;
+    box-shadow: 0 0 5px #0002;
+    font-size: calc(1rem + 3px);
+    border-radius: 8px;
+}
+.qa__data__text{
+    padding: 13px;
 }
 /* --------------------------------------------- footer section -------------------------------------------------------- */
 .footer{

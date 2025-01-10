@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-      display: flex;
+    display: flex;
     flex-direction: column;
     background-color: #f5efef;
     font-family: Hanuman;
@@ -19,8 +19,8 @@ body{
 .header{
     background-color: transparent;
     padding: clamp(10px, 10px, 20px);
-    flex: 1;
     display: flex;
+    flex: 1;
     z-index: 10;
     height: clamp(10vh, 10vh, 20vh); 
     justify-content: space-around;
@@ -106,7 +106,7 @@ body{
 /* -------------------------------------------------------- User section ------------------------------------------------------------------------------ */
 .user__section{
     height: fit-content;
-     flex: 1;
+    flex: 1;
 }
 .user__section-wrapper{
     display: flex;
@@ -230,7 +230,7 @@ svg{
     padding: 30px;
 }
 .Project__container{
-     margin: auto;
+    margin: auto;
     width: clamp(30vw, 90vw, 90vw);
     height: clamp(50vh, 50vh, 75vh);
     display: flex;
@@ -253,7 +253,7 @@ svg{
 .project__section{
     height: fit-content;
     background-color: #fff;
-    margin: 20px;
+    flex: 1;
 }
 .Project__container:hover{
     transform: translateY(-8px);
@@ -353,7 +353,7 @@ hr{
 .icon:hover, .contact__text:hover{
     transform: scale(1.03);
 }
-/* -----------------------------------Q&A SECTION ------------------- */
+/*--------------------------------------------- q&a section -------------------------------------------------------- */
 .qa__section{
     flex: 1;
     padding: 20px;
@@ -443,6 +443,7 @@ summary{
         margin: auto;
     }
     .header{
+        flex: 1;
         position: relative;
         justify-content: center;
         align-items: center;
@@ -486,14 +487,13 @@ summary{
     }
     /* user section */
     .user__section{
-        height: fit-content;
-        
+        height: 180vh;
+        flex: 1;
     }
     .user__section-wrapper{
         width: fit-content;
         height: fit-content;
         margin: 20px auto;
-        
     }
     .user__data__text{
         font-size: calc(1rem);
@@ -520,17 +520,18 @@ summary{
         text-decoration: underline 1px;
     }
     .secondary__data__section{
-        margin: auto;
+        margin: 60px auto;
     }
     .secondary__data{
         width: min-content;
         margin-top: 10px;
     }
-    .user__data__text__subtitle{
+    .secondary__data__title{
         font-size: clamp(2vw, 4vw, 5vw);
     }
     .project__section{
         padding: 70px;
+        flex: 1;
     }
     .Project__title{
         font-size: clamp(2vw, 7vw, 8vw);
@@ -595,5 +596,5 @@ summary{
     .footer{
         font-size: calc(.7rem + 2px);
     }
-    
 }
+

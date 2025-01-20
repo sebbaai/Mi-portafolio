@@ -35,110 +35,82 @@ main{
 }
 
 /* ----------------------------------------------- main section ----------------------------------------------------------- */
-.top__main__section{
-    background-color: #141028;
-    height: clamp(40vh, 110vh, 120vh);
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    overflow: hidden;
-}
 .main__title{
     font-size: clamp(2vw, 7vw, 9vw);
+    width: fit-content;
+    height: fit-content;
     font-style: oblique;
     font-weight: 900;
     letter-spacing: 10px;
-    padding: 8px;
+    padding: 20px;
+    text-align: center;
     text-transform: uppercase;
     position: relative;
-}
-.primera__parte::after, .segunda__parte::after{
-    content: "";
-    position: absolute;
-    bottom: -3px; 
-    left: 0;
-    width: 0;  
-    height: 4px;  
-    background-color: #fff;
-    border-radius: 10px;
-    transition: width 0.3s ease;  
-}
-.primera__parte:hover::after, .segunda__parte:hover::after {
-    width: 50%;  
-}
-.primera__parte, .segunda__parte{
-    display: flex;
-    position: relative;
-}
-.top__main__description{
-    width: clamp(10vw, 50vw, 90vw);
-    text-align: justify;
-    font-size: clamp(1vw, 1.4vw, 3vw);
-    background-color: #242038;
-    color: #fff;
+    background-color: transparent;
     border-radius: 8px;
-    padding: 10px;
+}
+.main__title::after{
+    content: "Confie plenamente";
+    font-size: 2vw;
+    position: absolute;
+    bottom: -1%;
+    right: 2%;
+}
+.main__title::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #0003;
+    transition: width 0.3s ease-in-out;
+}
+.main__title:hover::before{
+    width: 100%;
+}
+.main__subtitle{
+    text-align: center;
+    font-size: 2vw;
+    font-family: Hanuman;
+    font-weight: 600;
+    letter-spacing: 4px;
 }
 .data__container{
     display: flex;
     flex-direction: column;
-    padding: 50px;
-    gap: 30px;
+    flex: 1;
 }
-.subtitle__data__container{
-    font-size: clamp(1vw, 1.5vw, 2vw);
-    color: #fff;
-    background-color: #242038;
-    margin: 10px;
-    border-radius: 8px;
-    width: fit-content;
-    padding: 5px;
-}
-.data__text__container{
-    display: flex;
-    flex-direction: column;
-    width: clamp(30vw, 50vw, 80vw);
-    margin: 20px;
-    padding: 10px;
-    border-radius: 8px;
-    font-size: clamp(6vw, 8vw, 10vw);
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #fff;
-}
-.data__text__title__firstpart, .data__text__title__secondpart{
-    font-size: clamp(2vw, 8vw, 9vw);
-    animation: typing 2s forwards;
-}
-.data__text__title__firstpart{
-    mask-image: linear-gradient(to right, black 50%, transparent 70%);
-}
-.data__text__title__secondpart{
-    mask-image: linear-gradient(to right, black 80%, transparent 95%);
-}
-.title__data__container{
-    color: #e5e1e1;
-    font-size: clamp(2vw, 2vw, 2vw);
-    font-family: Hanuman;
-}
-.main__description{
-    background-color: #fff;
-    height: clamp(20vh, 70vh, 90vh);
+.main__section{
+    background-color: #eee;
+    height: fit-content;
     padding: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.main__description__container{
+    display: flex;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #0002;
+    background-color: #fff;
 }
 .main__description__img{
-    background-image: linear-gradient(#0003, #0008), url(imagenescompañia.avif);
+    background-image: linear-gradient(#0003, #0008), url(../imagenes/imagenescompañia.avif);
     background-size: cover;
     width: clamp(20vw, 40vw, 60vw);
     height: clamp(20vw, 30vw, 60vw);
     border-radius: 10px;
+    flex: 1;
 }
-.top__main__data{
-    width: clamp(40vw, 50vw, 55vw);
+.main__data{
+    width: 100%;
+    height: 100%;
     font-size: calc(1.3rem - 1px);
     font-weight: 900;
     color: #242038;
@@ -150,86 +122,13 @@ main{
     hyphens: auto;
     font-family: Josefin Sans;
     line-height: 35px;
-    box-shadow: 0 0 5px #0003;
     border-radius: 10px;
 }
-span{
-    color: #fff;
-}
-.top__main__button{
-    font-size: calc(1.5rem + 1px);
-    font-weight: 800;
-    font-family: Hanuman;
-    margin: 20px auto;
-    background-color: #242038;
-    color: #fff;
-    border-radius: 8px;
-    width: clamp(10vw, 30vw, 45vw);
-    height: clamp(5vh, 8vh, 15vh);
-    position: relative;
-    left: -20%;
-    border: none;
-    transition: all .4s;
-    animation-delay: .2s;
-}
-.top__main__button:hover{
-    transform: scale(1.02);
-}
-.top__main__button:active{
-    transform: scale(0.98);
-}
-
-.top__main__button::before{
-    content: "Comience a navegar!";
-    width: 0;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 8px;
-    background-color: #fff;
-    color: #242038;
-    display: flex;
-    justify-content: center;
-    text-wrap: balance;
-    align-items: center;
-    opacity: 0;
-    transition: all .7s;
-    overflow: hidden;
-}
-.top__main__button:hover::before{
-    width: 100%;
-    opacity: 1;
-}
-.top__main__img{
-    width: clamp(20vw, 35vw, 40vw);
-    mask-image: radial-gradient( black 55%, transparent 100%);
-    mask-size: 100% 100%;
-    position: absolute;
-    right: 7%;
-    top: 10%;
-    backdrop-filter: blur(50px);
-    border-radius: 50%;
-    animation: move 3s infinite alternate-reverse;
-}
-/* ------------------------------- animation section -----------------------------------*/
-@keyframes move {
-    0%{
-        transform: translateY(15px);
-    }
-    50%{
-        transform: translateY(-15px);
-    }
-    100%{
-        transform: translateY(15px);
-    }
-}
-
-
 /* -------------------- categories section -------------------------------*/
 .categories__main__section{
-    background-color: #141028;
+    background-color: #111;
     padding: 20px;
+    height: fit-content;
 }
 .categories__title{
     text-align: center;
@@ -273,17 +172,17 @@ span{
     appearance: none;
 }
 .categories__wrapper::-webkit-scrollbar-track{
-    background-color: #141028;
+    background-color: transparent;
 }
 .categories__wrapper::-webkit-scrollbar-thumb{
-    background-color: #242038;
+    background-color: #000;
     border-radius: 5px;
 }
 .categorie__container{
     width: 500px;
     height: clamp(50vh, 60vh, 70vh);
     border: 1px solid #000;
-    background-image: linear-gradient(#0007, #0008), url(iabuena.avif);
+    background-image: linear-gradient(#0007, #0008), url(../imagenes/iabuena.avif);
     background-size: cover;
     margin: 20px;
     border-radius: 6px;
@@ -296,23 +195,23 @@ span{
     scroll-snap-align: center;
 }
 /*categorie container -> */ .procesos{
-    background-image: linear-gradient(#0007, #0008), url(procesos.avif);
+    background-image: linear-gradient(#0007, #0008), url(../imagenes/procesos.avif);
 }
 /*categorie container -> */ .software{
-    background-image: linear-gradient(#0007, #0008), url(software.avif);
+    background-image: linear-gradient(#0007, #0008), url(../imagenes/software.avif);
 }
 /*categorie container -> */ .datos{
-    background-image: linear-gradient(#0007, #0008), url(analisisdedatos.avif);
+    background-image: linear-gradient(#0007, #0008), url(../imagenes/analisisdedatos.avif);
 }
 /*categorie container -> */ .machine{
-    background-image: linear-gradient(#0007, #0008), url(machinelearingin.avif);
+    background-image: linear-gradient(#0007, #0008), url(../imagenes/machinelearingin.avif);
 }
 /*categorie container -> */ .servicios{
-    background-image: linear-gradient(#0007, #0008), url(microservicios.avif);
+    background-image: linear-gradient(#0007, #0008), url(../imagenes/microservicios.avif);
 }
 /* ----------------------------- client section -------------------------- */
 .client__section{
-    background-color: #141028;
+    background-color: #111;
     height: clamp(100vh, 100vh, 130vh);
     gap: 100px;
 }
@@ -336,7 +235,7 @@ span{
     align-items: center;
     width: clamp(10vw, 30vw, 30vw);
     height: fit-content;
-    box-shadow: 0 0 10px #0003;
+    box-shadow: 0 0 10px #0008;
     padding: 30px;
     border-radius: 8px;
     transition: all .4s;
@@ -350,14 +249,14 @@ span{
     border-radius: 50%;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(#0004, #0007), url(hombre.aviif.avif);
+    background-image: linear-gradient(#0004, #0007), url(../imagenes/hombre.aviif.avif);
     filter: drop-shadow(0 0 10px #0004);
 }
 .señorita{
-    background-image: linear-gradient(#0004, #0007), url(mujer.avif);
+    background-image: linear-gradient(#0004, #0007), url(../imagenes/mujer.avif);
 }
 .señora{
-    background-image: linear-gradient(#0004, #0007), url(señora.avif);
+    background-image: linear-gradient(#0004, #0007), url(../imagenes/señora.avif);
 }
 .datatext__client{
     color: #d1d5d5;
@@ -368,7 +267,7 @@ span{
 }
 .footer{
     flex: 1;
-    background-color: #242038;
+    background-color: #000;
     padding: 90px;
     color: #fff;
     display: flex;
@@ -395,6 +294,7 @@ span{
 .footer__linkitem:hover{
     text-decoration: underline;
 }
+
 /* ----------------------------- media querie section -------------------------- */
 @media screen and (max-width: 480px){
     .animate__animated, .animate__fadeInLeft, .animate__fadeInRight, .animate__fadeInUp{
@@ -492,15 +392,4 @@ span{
         font-size: calc(1rem);
     }
 }
-    @keyframes move {
-        0%{
-            transform: translateY(4px);
-        }
-        50%{
-            transform: translateY(-4px);
-        }
-        100%{
-            transform: translateY(4px);
-        }
-    }
 

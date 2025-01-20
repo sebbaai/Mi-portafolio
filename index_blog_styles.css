@@ -101,7 +101,7 @@ main{
     background-color: #fff;
 }
 .main__description__img{
-    background-image: linear-gradient(#0003, #0008), url(../imagenes/imagenescompañia.avif);
+    background-image: linear-gradient(#0003, #0008), url(imagenescompañia.avif);
     background-size: cover;
     width: clamp(20vw, 40vw, 60vw);
     height: clamp(20vw, 30vw, 60vw);
@@ -182,7 +182,7 @@ main{
     width: 500px;
     height: clamp(50vh, 60vh, 70vh);
     border: 1px solid #000;
-    background-image: linear-gradient(#0007, #0008), url(../imagenes/iabuena.avif);
+    background-image: linear-gradient(#0007, #0008), url(iabuena.avif);
     background-size: cover;
     margin: 20px;
     border-radius: 6px;
@@ -195,19 +195,19 @@ main{
     scroll-snap-align: center;
 }
 /*categorie container -> */ .procesos{
-    background-image: linear-gradient(#0007, #0008), url(../imagenes/procesos.avif);
+    background-image: linear-gradient(#0007, #0008), url(procesos.avif);
 }
 /*categorie container -> */ .software{
-    background-image: linear-gradient(#0007, #0008), url(../imagenes/software.avif);
+    background-image: linear-gradient(#0007, #0008), url(software.avif);
 }
 /*categorie container -> */ .datos{
-    background-image: linear-gradient(#0007, #0008), url(../imagenes/analisisdedatos.avif);
+    background-image: linear-gradient(#0007, #0008), url(analisisdedatos.avif);
 }
 /*categorie container -> */ .machine{
-    background-image: linear-gradient(#0007, #0008), url(../imagenes/machinelearingin.avif);
+    background-image: linear-gradient(#0007, #0008), url(machinelearingin.avif);
 }
 /*categorie container -> */ .servicios{
-    background-image: linear-gradient(#0007, #0008), url(../imagenes/microservicios.avif);
+    background-image: linear-gradient(#0007, #0008), url(microservicios.avif);
 }
 /* ----------------------------- client section -------------------------- */
 .client__section{
@@ -249,14 +249,14 @@ main{
     border-radius: 50%;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(#0004, #0007), url(../imagenes/hombre.aviif.avif);
+    background-image: linear-gradient(#0004, #0007), url(hombre.aviif.avif);
     filter: drop-shadow(0 0 10px #0004);
 }
 .señorita{
-    background-image: linear-gradient(#0004, #0007), url(../imagenes/mujer.avif);
+    background-image: linear-gradient(#0004, #0007), url(mujer.avif);
 }
 .señora{
-    background-image: linear-gradient(#0004, #0007), url(../imagenes/señora.avif);
+    background-image: linear-gradient(#0004, #0007), url(señora.avif);
 }
 .datatext__client{
     color: #d1d5d5;
